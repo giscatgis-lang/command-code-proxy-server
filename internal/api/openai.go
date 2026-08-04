@@ -58,6 +58,7 @@ type OpenAIChatRequest struct {
 	PresencePenalty     *float64        `json:"presence_penalty,omitempty"`
 	FrequencyPenalty    *float64        `json:"frequency_penalty,omitempty"`
 	User                string          `json:"user,omitempty"`
+	Thinking            any             `json:"thinking,omitempty"`
 }
 
 type OpenAIResponsesRequest struct {

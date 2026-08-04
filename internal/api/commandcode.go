@@ -33,6 +33,7 @@ type CCChatParams struct {
 	MaxTokens   int         `json:"max_tokens"`
 	Temperature float64     `json:"temperature"`
 	Stream      bool        `json:"stream"`
+	Thinking    any         `json:"thinking,omitempty"`
 }
 
 type CCConfig struct {
